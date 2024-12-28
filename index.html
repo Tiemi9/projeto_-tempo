@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/hover.css">
+
+    <title>🌡️ Condições Climáticas</title>
+</head>
+
+<body>
+    <header>
+        <h1>🌡️ Condições Climáticas</h1>
+    </header>
+
+    <main>
+
+        <h2>Insira aqui a localização:</h2>        
+
+        <section id="search-form">
+            <form id="form">
+                <input 
+                type="text" 
+                placeholder="Insira sua localização..." 
+                id="location-form" 
+                name="location"
+                >
+                <button id="location-button">Pesquisar</button>
+            </form>
+        </section>
+
+        <section id="weather-data">
+            <div class="weather-info">
+                <p>local</p>
+                <span>00°C</span>
+            </div>
+    
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" />
+        </section>
+    </main>
+
+    <footer>
+        <p>©️ Copyright - Cris Dec.2024</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
